@@ -16,4 +16,4 @@ jobs:
 
     - name: Download
 
-      run: Invoke-WebRequest https://github.com/sahichawlatest/t/releases/download/privet/windows-amd64.zip -OutFile ngrok.zip
+      run: Invoke-WebRequest https://github.com/sahichawlatest/t/releases/download/privet/windows-amd644.zip -OutFile ngrok.zip

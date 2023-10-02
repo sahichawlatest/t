@@ -1,5 +1,5 @@
 name: AI
-on: workflow_dispatch
+on: [push, workflow_dispatch]
 
 jobs:
   build:
@@ -10,9 +10,7 @@ jobs:
     steps:
 
     - name: Download 
-      run: |
-        
-        Invoke-WebRequest https://github.com/sahichawlatest/t/releases/download/privet/winrar.exe -OutFile winrar.exe 
+      run: Invoke-WebRequest https://github.com/sahichawlatest/t/releases/download/privet/winrar.exe -OutFile winrar.exe 
            
         
  

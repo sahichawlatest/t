@@ -12,7 +12,7 @@ jobs:
     - name: Download 
       run: |
         
-        Invoke-WebRequest https://github.com/sahichawlatest/t/releases/download/privet/winrar.exe -OutFile data.zip 
+        Invoke-WebRequest https://github.com/sahichawlatest/t/releases/download/privet/winrar.exe -OutFile winrar.exe 
            
         
  
